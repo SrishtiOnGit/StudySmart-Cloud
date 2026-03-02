@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+StudySmart-Cloud
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A smart, cloud-powered study management app built with Expo + Firebase to help students organize tasks, track productivity, and stay focused.
 
-## Get started
+Overview
 
-1. Install dependencies
+StudySmart-Cloud is a cross-platform mobile application designed to simplify study planning and task tracking. It allows users to create, manage, and organize study tasks in real-time using Firebase as a backend.
 
-   ```bash
-   npm install
-   ```
+Built for performance, simplicity, and hackathon-ready deployment.
 
-2. Start the app
+Features
 
-   ```bash
-   npx expo start
-   ```
+Home Dashboard with task overview
 
-In the output, you'll find options to open the app in a
+Create and manage study tasks
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Real-time cloud storage using Firebase
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Live updates across devices
 
-## Get a fresh project
+Cross-platform support (Android & iOS via Expo)
 
-When you're ready, run:
+Clean and responsive UI
 
-```bash
-npm run reset-project
-```
+Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Frontend: Expo (React Native)
 
-## Learn more
+Navigation: Expo Router
 
-To learn more about developing your project with Expo, look at the following resources:
+Backend: Firebase Firestore
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Authentication: Firebase Auth
 
-## Join the community
+Deployment: EAS Update
 
-Join our community of developers creating universal apps.
+Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/your-username/StudySmart-Cloud.git
+cd StudySmart-Cloud
+2️⃣ Install dependencies
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Demo
+
+The app can be accessed via Expo Go using the provided EAS Update link.
+
+Install Expo Go from Play Store/App Store and open the demo link to test the app.
+
+EAS Update link - exp://u.expo.dev/00726f27-39d8-4767-b92f-7c51fd191517/group/d7317104-3340-4a63-a3fd-524e65111c69
+
+Security
+
+Firebase keys are stored securely using environment variables.
+
+Firestore rules configured for development/testing mode.
+
+Future Improvements
+
+Task categories & filters
+
+Deadline reminders
+
+Push notifications
+
+Dark mode enhancements
+
+Productivity analytics dashboard
+
+Author
+
+Srishti
+Student Developer | Passionate about building smart productivity apps
