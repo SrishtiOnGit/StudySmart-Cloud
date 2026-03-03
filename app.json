@@ -19,12 +19,9 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-<<<<<<< HEAD
-      "predictiveBackGestureEnabled": false
-=======
+      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.codersrishti2010.StudySmartCloud"
->>>>>>> bb1486f (Clean initial commit)
     },
     "web": {
       "output": "static",
