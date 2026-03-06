@@ -7,11 +7,13 @@
     "icon": "./assets/images/icon.png",
     "scheme": "studysmartcloud",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.codersrishti2010.StudySmartCloud",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -19,9 +21,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.codersrishti2010.StudySmartCloud"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
@@ -45,7 +45,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": false
     },
     "extra": {
       "router": {},
@@ -58,7 +58,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/00726f27-39d8-4767-b92f-7c51fd191517"
+      "url": "https://u.expo.dev"
     }
   }
 }
