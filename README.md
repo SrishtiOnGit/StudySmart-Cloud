@@ -43,11 +43,9 @@ npm install
 
 Demo
 
-The app can be accessed via Expo Go using the provided EAS Update link.
+The app can be accessed via APK download.
 
-Install Expo Go from Play Store/App Store and open the demo link to test the app.
-
-EAS Update link - exp://u.expo.dev/00726f27-39d8-4767-b92f-7c51fd191517/group/d7317104-3340-4a63-a3fd-524e65111c69
+Visit this link to download apk and test our app : https://github.com/SrishtiOnGit/StudySmart-Cloud/releases/latest
 
 Security
 
